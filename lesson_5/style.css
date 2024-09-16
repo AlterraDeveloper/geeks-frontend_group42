@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: cyan;
+}
+
+.container h1 {
+  font-size: 4rem;
+}
+
+.container .counter {
+  font-size: 7rem;
+}
+
+.buttons {
+  gap: 20px;
+  display: flex;
+}
+
+.buttons button {
+  padding: 5px 30px;
+  font-size: 3rem;
+  font-weight: 700;
+  background-color: transparent;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.buttons button:nth-child(1) {
+  color: red;
+  border: 2px solid red;
+}
+
+.buttons button:nth-child(2) {
+  color: cyan;
+  border: 2px solid cyan;
+}
+
+.buttons button:nth-child(3) {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+}
+
+.buttons button:nth-child(1),
+.buttons button:nth-child(3) {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.buttons button:nth-child(1):hover {
+  background-color: #ff00003d;
+  border: none;
+}
+
+.buttons button:nth-child(2):hover {
+  background-color: #00ffff80;
+  border: none;
+}
+
+.buttons button:nth-child(3):hover {
+  background-color: #00ff0037;
+  border: none;
+}
+
+.positive {
+  color: greenyellow;
+}
+
+.zero {
+  color: cyan;
+}
+
+.negative {
+  color: red;
+}
