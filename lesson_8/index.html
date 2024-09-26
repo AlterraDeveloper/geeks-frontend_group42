@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h2>Login form</h2>
+  </div>
+  <form id="form" class="form">
+    <div class="form-control">
+      <label class="required" for="userEmail">Login</label>
+      <input type="" placeholder="john.doe@gmail.com" id="userEmail" />
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label class="required" for="userPassword">Password</label>
+      <input type="password" id="userPassword" value="" />
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <input type="submit" value="Login" />
+  </form>
+</div>
+</body>
+</html>
